@@ -1,0 +1,25 @@
+{
+  "name": "babylon-base",
+  "version": "1.0.0",
+  "description": "babylon-vanilla-base",
+  "main": "./src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8000"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "dankoenig",
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/core": "^8.6.1",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
